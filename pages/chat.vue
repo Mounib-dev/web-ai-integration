@@ -9,9 +9,7 @@
             class="flex items-center gap-3 bg-gradient-to-r from-blue-600 to-blue-400 text-white rounded-2xl px-6 py-4 shadow-lg mb-3"
           >
             <Icon icon="mdi:robot-excited" class="text-2xl" />
-            <span class="text-xl font-bold tracking-wide"
-              >Stats IA Session</span
-            >
+            <span class="text-xl font-bold tracking-wide">Métriques IA</span>
           </div>
 
           <div class="grid grid-cols-1 gap-4">
