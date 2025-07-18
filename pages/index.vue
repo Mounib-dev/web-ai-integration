@@ -16,7 +16,6 @@
         cutting-edge AI technology.
       </p>
 
-      <!-- Call to action button -->
       <a
         href="#features"
         class="mt-8 px-8 py-3 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 rounded-full text-white text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105"
@@ -39,14 +38,13 @@
       <p class="text-lg mb-4">
         Built for professionals, students, and content creators.
       </p>
+      <p class="text-lg mb-4">
+        You can also chat with our Model or reformulate your texts.
+      </p>
     </div>
   </div>
 </template>
 
-<script setup>
-// Pas de logique ici pour l'instant
-</script>
+<script setup></script>
 
-<style scoped>
-/* Styles généraux ou personnalisés peuvent être ajoutés ici si nécessaire */
-</style>
+<style scoped></style>
