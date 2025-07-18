@@ -5,7 +5,6 @@
     <div class="max-w-screen-lg mx-auto">
       <h2 class="text-2xl font-bold mb-6">Résumé ou reformulation</h2>
 
-      <!-- Switch mode (résumer/reformuler) -->
       <div class="flex items-center gap-4 mb-6">
         <label class="flex items-center cursor-pointer">
           <input v-model="mode" type="radio" value="resume" class="hidden" />
@@ -38,7 +37,6 @@
         </label>
       </div>
 
-      <!-- Options si "résumer" -->
       <div v-if="mode === 'resume'" class="mb-4">
         <label class="block mb-2 font-medium">Type :</label>
         <div class="flex gap-4">
@@ -112,7 +110,6 @@
         </div>
       </div>
 
-      <!-- Bouton de soumission -->
       <div class="flex gap-4 mt-4">
         <button
           class="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 disabled:bg-gray-400 disabled:dark:bg-gray-700 disabled:cursor-not-allowed"
@@ -123,7 +120,6 @@
         </button>
       </div>
 
-      <!-- Affichage du loader/résultat/erreur comme avant -->
       <div v-if="loading" class="flex justify-center mt-4">
         <div
           class="w-16 h-16 border-4 border-t-4 border-blue-600 border-solid rounded-full animate-spin"
